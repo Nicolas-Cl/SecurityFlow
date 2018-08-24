@@ -75,42 +75,56 @@
     <div class="container mt-5 ">
       <div class="row">
         <div class="col-sm-6">
-          <h4 class="mb-4 yellow">Últimas Noticias</h4>
+          <h4 class="mb-4 yellow">Nuestra Empresa</h4>
           
           <div class="row mb-3">
             <div class="col-sm-3"><img src="https://via.placeholder.com/100x100"></div>
             <div class="col-sm-9">
-              <h5><a href="#">Titulo Noticia </a></h5>
-              <p class="txt-small text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque unde ut voluptatibus nostrum modi! Vel unde aliquam eius ex, quidem. Quae, officia quia ut in nostrum, sed porro placeat commodi.</p>
+              <h5><a href="#">Misión</a></h5>
+              <p class="txt-small text-justify">Ser una consultora lider en la asesoria integral en Prevención de Riesgos y medio ambiente, apoyando de forma permanente la producción, el servicio y crecimiento de sus clientes sea cual sea su actividad economica</p>
               </div>
           </div>
 
           <div class="row mb-3">
             <div class="col-sm-3"><img src="https://via.placeholder.com/100x100"></div>
             <div class="col-sm-9 txt-small">
-              <h5><a href="#">Titulo Noticia </a></h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque unde ut voluptatibus nostrum modi! Vel unde aliquam eius ex, quidem. Quae, officia quia ut in nostrum, sed porro placeat commodi.</p>
+              <h5><a href="#">Visión</a></h5>
+              <p>Ser reconocidos por nuestra excelencia, profesionalismo y calidad de servicio, además de contribuir de manera activa e innovadora, al logro de los objetivos estrategicos de nuestros clientes a nivel nacional</p>
               </div>
           </div>
 
         </div>
    
          <div class="col-sm-6">
-          <h4 class="mb-4 yellow">Últimas Noticias</h4>
+          <h4 class="mb-4 yellow">Noticias destacadas</h4>
           
+          <?php 
+          if ( have_posts() ) {
+            while ( have_posts() ) {
+              the_post(); 
+              //
+       the_content(); 
+                     //
+            } // end while
+          } // end if
+          ?>
+
           <div class="row mb-3">
             <div class="col-sm-3"><img src="https://via.placeholder.com/100x100"></div>
             <div class="col-sm-9">
-              <h5><a href="#">Titulo Noticia </a></h5>
-              <p class="txt-small text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque unde ut voluptatibus nostrum modi! Vel unde aliquam eius ex, quidem. Quae, officia quia ut in nostrum, sed porro placeat commodi.</p>
+              <h5><a href="#">Reconocimientos a empresas asesoradas por SecurityFlow </a></h5>
+              <p class="txt-small text-justify">Empresas comprometidas con la seguridad, siendo asesoradas directamente por nosotros, fueron premiadas la jornada del dia 15 de Agosto, en dependencias del organismo administrador ACHS. El reconocimiento recibido es debido a la certificación de comites paritarios, ademas de la participación activa de estos en materias de seguridad y salud ocupacional.</p>
               </div>
           </div>
+            } // end while
+          } // end if
+          ?>
 
           <div class="row mb-3">
             <div class="col-sm-3"><img src="https://via.placeholder.com/100x100"></div>
             <div class="col-sm-9 txt-small">
-              <h5><a href="#">Titulo Noticia </a></h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque unde ut voluptatibus nostrum modi! Vel unde aliquam eius ex, quidem. Quae, officia quia ut in nostrum, sed porro placeat commodi.</p>
+              <h5><a href="#">Empresas comprometidas en campaña </a></h5>
+              <p>Durante este segundo semestre nuestras empresas se inscriben de manera voluntaria en nuestra campaña "cuida tus ojos". las cuales deben.</p>
               </div>
           </div>
 
