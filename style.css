@@ -1,9 +1,30 @@
 body {
   background-color:#4e000d;
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+a {
+  color:#FEB103;
+}
+a:hover {
+  color:#8e5861;
+}
+
+.yellow {
+  color:#FEB103;
 }
 
 .bg-flow {
   background-image: url('images/bg-slider1.jpg');
   background-position: center;
   height: 400px;
+}
+
+.carrusel-400 {
+  height: 400px;
+}
+.txt-small {
+  font-size:13px;
 }
