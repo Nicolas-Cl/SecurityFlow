@@ -1,0 +1,9 @@
+body {
+  background-color:#4e000d;
+}
+
+.bg-flow {
+  background-image: url('images/bg-slider1.jpg');
+  background-position: center;
+  height: 400px;
+}
