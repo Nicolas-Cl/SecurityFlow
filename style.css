@@ -46,6 +46,9 @@ a:hover {
   font-size:13px;
 }
 
+.bg-white {
+  background-color:#fff;
+}
 .bg-footer {
   background-color:#3f151b;
 }
