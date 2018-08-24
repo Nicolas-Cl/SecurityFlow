@@ -72,3 +72,7 @@ a:hover {
   background-color:#4E000D;
   color:#fff;
 }
+
+.oculto {
+  display:none;
+}

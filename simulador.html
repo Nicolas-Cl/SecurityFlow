@@ -88,7 +88,7 @@
                 <select class="form-control" id="exampleFormControlSelect1">
                   <option value="">Seleccione Opción</option>
                   <option value="1">Si</option>
-                  <option value="2">No</option>
+                  <option value="2" rel="100">No</option>
                   <option value="3">No Aplica</option>
                 </select>
               </div>
@@ -98,7 +98,7 @@
                 <select class="form-control" id="exampleFormControlSelect2">
                   <option value="">Seleccione Opción</option>
                   <option value="1">Si</option>
-                  <option value="2">No</option>
+                  <option value="2" rel="150">No</option>
                 </select>
               </div>
 
@@ -107,7 +107,7 @@
                 <select class="form-control" id="exampleFormControlSelect3">
                   <option value="">Seleccione Opción</option>
                   <option value="1">Si</option>
-                  <option value="2">No</option>
+                  <option value="2" rel="80">No</option>
                   <option value="3">No Aplica</option>
                 </select>
               </div>
@@ -117,7 +117,7 @@
                 <select class="form-control" id="exampleFormControlSelect4">
                   <option value="">Seleccione Opción</option>
                   <option value="1">Si</option>
-                  <option value="2">No</option>
+                  <option value="2" rel="200">No</option>
                   <option value="3">No Aplica</option>
                 </select>
               </div>
@@ -131,13 +131,15 @@
         </div>
 
         <div class="offset-2 col-4">
-          <div class="">
-            <h3 clasS="mb-4">Resultado Evaluación</h3>
-            <p>
+          <div class="oculto">
+            <h3 clasS="mb-4 red">Resultado Evaluación</h3>
+            <p class="txt-small">
               Estimado usuario<br><br>
               Ud tiene <code id="nVeces"></code> faltas.<br>
-              El Valor de Cada Multa es de <code id="vUTM"></code><br>
-              El Valor del total de sus multas es  <code id="vTotal"></code><br>
+              El Valor de la UTM es : <code id="vUTM"></code><br>
+              La Cantidad de UTM de su multa serían <code id="vTotalUTM"></code><br><br>
+              
+              El Valor total de sus multa sería  <code id="vTotal"></code><br>
             </p>
 
           </div>
@@ -168,6 +170,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.bootstrap-growl.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
