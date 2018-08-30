@@ -54,25 +54,45 @@
     <div class="container">
       <div class="row">
         <div class="col-6 text-justify">
-          <h2 class="red">Titulo 1</h2>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolorem quo ad. Dolor deserunt maiores ut impedit soluta delectus eaque debitis expedita tempore! Ab incidunt ut, accusantium consequatur ipsam culpa.
+          <h2 class="red">Seguridad Laboral</h2>
+          
+          <div>
+            <li>Gestión Documental, Disposiciones Legales Ley 16.744 (Sobre accidentes del trabajo y enfermedades profesionales)</li> 
+            <li>Gestión Ley de Subcontratación (Ley 20.123)</li>
+            <li>Levantamiento e implementación de mejoras, frente a fiscalizaciones por parte de la Seremi de Salud e Inspección del Trabajo
+          </li>
+            <li>Diagnóstico de peligros y riesgos en su organización</li>
+            <li>Planes de mejora y seguimiento a su proceso industrial y/o servicios</li>
+            <li>Rebaja de tasa de siniestralidad (Decreto Supremo N°67)</li>
+            <li>Conformación y asesoría de Comités Paritarios de Higiene y Seguridad (CPHS)</li>
+            <li>Confección, validación e implementación de Reglamentos internos de Orden, Higiene y Seguridad (RIOHS)</li>
+            <li>Confección, Implementación y Seguimiento de Sistemas de Gestión en Seguridad y Salud Ocupacional (Programas de Prevención de Riesgos)</li>
+            <li>Matrices de Identificación de Peligros y Evaluación de Riesgos (MIPER)</li>
+            <li>Procedimientos frente a todo tipo de accidentes, incluyendo graves y fatales</li>
+            <li>Procedimientos de trabajo seguro (PTS)</li>
+            <li>Confección e Implementación de Análisis seguro de trabajo (AST)</li>
+            <li>Seguridad en Vialidad</li>
+            <li>Diagnóstico, recomendación, uso y recambio de Elementos de Protección Personal (EPP)</li>
+            <li>Diagnostico e Implementación de señalética de seguridad y letreros de advertencia.</li>
+            <li>Capacitación Integral en Prevención de Riesgos</li>             
 
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi laboriosam quis nihil necessitatibus ab nobis quia iste obcaecati rerum, non nostrum eaque provident cum eveniet molestias atque culpa dolor. Molestias.
-
-          <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro architecto ad, saepe sed aspernatur minus nobis debitis sequi libero voluptatibus optio quis corporis similique, velit natus! Sequi similique, corporis aspernatur.</div>
+          </div>
           <div>At fugit molestiae eaque sed saepe aspernatur aperiam odit atque, maiores eos et doloremque dolorem reprehenderit, quae, veritatis accusantium impedit doloribus maxime. Sed at quas fuga, laborum nisi incidunt sint.</div>
         </div>
 
        <div class="col-6 text-justify">
-          <h2 class="red">Titulo 2</h2>
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolorem quo ad. Dolor deserunt maiores ut impedit soluta delectus eaque debitis expedita tempore! Ab incidunt ut, accusantium consequatur ipsam culpa.
+          <h2 class="red">Salud Ocupacional</h2>
+          
+          <div>
+            <li>Evaluación de puestos de trabajo y recomendaciones técnicas.</li> 
+            <li>Ergonomía</li>
+            <li>Protocolo de Riesgo Psicosocial (Istas 21)</li>
+            <li>Protocolo de Exposición Ocupacional al Ruido (Plan Prexor)</li>
+            <li>Protocolo Trastornos Musculo Esqueléticos Extremidades Superiores (TMERT)</li>
+            <li>Plan de Gestión por el Riego de Exposición a la Sílice (Plan Sílice)</li>
 
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi laboriosam quis nihil necessitatibus ab nobis quia iste obcaecati rerum, non nostrum eaque provident cum eveniet molestias atque culpa dolor. Molestias.
+          </div>
 
-          <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro architecto ad, saepe sed aspernatur minus nobis debitis sequi libero voluptatibus optio quis corporis similique, velit natus! Sequi similique, corporis aspernatur.</div>
-          <div>At fugit molestiae eaque sed saepe aspernatur aperiam odit atque, maiores eos et doloremque dolorem reprehenderit, quae, veritatis accusantium impedit doloribus maxime. Sed at quas fuga, laborum nisi incidunt sint.</div>
-          </p>
         </div>        
       </div>
     </div>
